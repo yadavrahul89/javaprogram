@@ -9,6 +9,8 @@ public class A {
 	
 	public static void main(String[] args) {
 		
+		System.out.println("Hello");
+		
 		List<String> asList = Arrays.asList("a","b","c","d","c");
 		rep(asList);
 	}
@@ -17,7 +19,6 @@ public class A {
 		Map<String, Integer> map = new HashMap<>();
 		
 		for(String val : str) {
-//			Integer integer = map.get(val);
 			Integer orDefault = map.getOrDefault(val, 1);
 			
 			if(map.containsKey(val)) {
