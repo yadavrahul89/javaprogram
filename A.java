@@ -11,6 +11,8 @@ public class A {
 		
 		System.out.println("Hello");
 		
+		
+		
 		List<String> asList = Arrays.asList("a","b","c","d","c");
 		rep(asList);
 	}
